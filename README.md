@@ -32,7 +32,7 @@ Data cleaning was performed in **MySQL** using staging tables to safely transfor
 
 Key steps included:
 
-### 1️⃣ Duplicate Detection
+### 1️. Duplicate Detection
 
 Duplicate records were identified using:
 
@@ -43,7 +43,7 @@ Duplicate records were identified using:
 
 ---
 
-### 2️⃣ Data Type Standardization
+### 2️. Data Type Standardization
 
 Columns were converted to appropriate formats such as:
 
@@ -53,7 +53,7 @@ Columns were converted to appropriate formats such as:
 
 ---
 
-### 3️⃣ Missing Value Validation
+### 3️. Missing Value Validation
 
 All tables were checked for null values in critical columns such as:
 
@@ -65,7 +65,7 @@ All tables were checked for null values in critical columns such as:
 
 ---
 
-### 4️⃣ Cross-Table Validation
+### 4️. Cross-Table Validation
 
 Foreign key relationships were validated to detect **orphan records**.
 
@@ -78,7 +78,7 @@ Invalid records were isolated and removed from the main dataset.
 
 ---
 
-### 5️⃣ Business Logic Validation
+### 5️. Business Logic Validation
 
 Logical checks were performed to detect unrealistic values, including:
 
